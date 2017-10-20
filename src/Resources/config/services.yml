@@ -1,6 +1,6 @@
 services:
     map.service:
-        class: MapBundle\Service\MapService
+        class: Betreuteszocken\MapBundle\Service\MapService
         calls:
             - [setContainer, ['@service_container']]
         public: true
