@@ -1,6 +1,6 @@
 <?php
 
-namespace MapBundle;
+namespace Betreuteszocken\MapBundle;
 
 use Betreuteszocken\MapBundle\DependencyInjection\MapBundleExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
