@@ -1,0 +1,28 @@
+{
+  "name": "betreuteszocken/cs-map-bundle",
+  "type": "library",
+  "description": "Provides methods to detect and categorize maps within you counter strike installation folder.",
+  "keywords": [
+	"counter strike",
+	"maps",
+	"collections"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Falko Matthies",
+	  "email": "falko.m@web.de"
+	}
+  ],
+  "require": {
+	"php": ">=5.5",
+	"symfony/symfony": "~3.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+	"classmap": [
+	  "src/"
+	]
+  }
+}
